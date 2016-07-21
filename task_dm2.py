@@ -1,6 +1,7 @@
 from drawman import *
 from time import sleep
 
+drawman_draw_grid ('blue')
 def f(x):
     return x*x
 drawman_scale(100)
