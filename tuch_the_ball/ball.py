@@ -2,7 +2,7 @@ import tkinter
 
 def print_hellow(event):
     print('Hellow!')
-    print((event))
+    print(dir(event))
 
 root = tkinter.Tk()
 button = tkinter.Button (root, text ="Button")
