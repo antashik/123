@@ -29,7 +29,7 @@ def init_main_window():
     variable = tkinter.IntVar(0)
     label = tkinter.Label(root, textvariable=variable)
     scale = tkinter.Scale (root, orient=tkinter.HORIZONTAL, length=300,
-                        from_=0,to=100,tickinterval=10,resolution=5, variable=variable)
+                           from_=0,to=100,tickinterval=10,resolution=5, variable=variable)
     text = tkinter.Entry(root, textvariable = variable)
 
     for obj in button1, button2,label, scale, text:
